@@ -1,0 +1,8 @@
+dist/
+build/
+json-string-converter.spec
+venv/bin
+venv/include
+venv/lib
+venv/lib64
+venv/pyvenv.cfg

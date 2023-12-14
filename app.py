@@ -6,7 +6,9 @@ def convert_to_json():
     input_string = input_text.get("1.0", tk.END).strip()
 
     try:
+        # Decode the string as a raw string literal
         input_string = input_string.encode().decode('unicode_escape')
+
         # Check if the string starts and ends with quotes and remove them
         if input_string.startswith('"') and input_string.endswith('"'):
             input_string = input_string[1:-1]
